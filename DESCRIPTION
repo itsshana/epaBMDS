@@ -1,0 +1,17 @@
+Package: epaBMDS
+Type: Package
+Title: Perform benchmark dose modeling in R with EPA software
+Version: 0.1.0
+Author: Shana White, Andy Shapiro
+Maintainer: The package maintainer <white.shana@epa.gov>
+Description: Benchmark dose (BMD) modeling is the preferred method for
+    deriving toxicity values from dose-response data at the US EPA. The US EPA 
+    maintians a variety of platforms such that researchers can conduct BMD 
+    modeling using online, desktop, command-line or, now, script-based software 
+    on the front-end that all use the EPA's approved C++ engine on the back-end.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    reticulate
